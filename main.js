@@ -69,7 +69,7 @@ phina.define("MainScene", {
         this.scoreL.x = 10;
         this.scoreL.y = 10;
         this.scoreL.update = function (app) {
-            this.text = self.score+"kill";
+            this.text = "スコア:"self.score;
         };
 
         //HPラベル
@@ -79,7 +79,7 @@ phina.define("MainScene", {
         this.hpL.x = 10;
         this.hpL.y = 35;
         this.hpL.update = function (app) {
-            this.text = "HP:"+self.player.hp;
+            this.text = "体力:"+self.player.hp;
         };
     },
 
