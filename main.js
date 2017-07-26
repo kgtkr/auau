@@ -198,7 +198,7 @@ phina.main(function () {
         width: W,
         height: H,
         fps: 60,
-        title: "AUAU\nマウスで移動、左クリックで攻撃"
+        title: "AUAU"
     });
     app.run();
 });
