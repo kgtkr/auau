@@ -69,7 +69,7 @@ phina.define("MainScene", {
         this.scoreL.x = 10;
         this.scoreL.y = 10;
         this.scoreL.update = function (app) {
-            this.text = "Score:"+self.score;
+            this.text = self.score+"kill";
         };
 
         //HPラベル
@@ -198,7 +198,7 @@ phina.main(function () {
         width: W,
         height: H,
         fps: 60,
-        title: "AUAU"
+        title: "AUAU\nマウスで移動、左クリックで攻撃"
     });
     app.run();
 });
