@@ -69,7 +69,7 @@ phina.define("MainScene", {
         this.scoreL.x = 10;
         this.scoreL.y = 10;
         this.scoreL.update = function (app) {
-            this.text = "スコア:"self.score;
+            this.text = "スコア:"+self.score;
         };
 
         //HPラベル
