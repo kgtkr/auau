@@ -198,7 +198,7 @@ phina.main(function () {
         width: W,
         height: H,
         fps: 60,
-        title: "SgmhrAUAU"
+        title: "AUAU"
     });
     app.run();
 });
