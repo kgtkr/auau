@@ -198,7 +198,8 @@ phina.main(function () {
         width: W,
         height: H,
         fps: 60,
-        title: "AUAU"
+        title: "AUAU",
+        fit: false
     });
     app.run();
 });
